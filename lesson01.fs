@@ -1,5 +1,3 @@
-// 4.3.1
-printfn "Hello, World!!!"
-
-// 4.3.2
-printfn "%f" ( 2.1 + 3.2 * (8.0 / 4.0 + 1.3 ) )
+let g n = n + 5 // int
+let gg = fun n -> n + 5
+let h (x,y) = System.Math.Sqrt(System.Math.Pow(x, 2.0) + System.Math.Pow(y, 2.0))
